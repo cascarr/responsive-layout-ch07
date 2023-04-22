@@ -1,0 +1,109 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.2rem;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 790px;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 46.9%;
+}
+
+/** header design */
+
+header {
+    background: #F3EED9;
+}
+
+.hero__pad {
+    padding: 4.5em 0em;
+}
+
+.hero__txt {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.hero__txt span {
+    color: #222C2A;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+}
+
+.hero__txt h1 {
+    color: #824936;
+}
+
+/* ___header design */
+
+/** intro design */
+
+.intro__pad {
+    margin-top: 0;
+    padding: 2.5em 0em;
+}
+
+.intro__section h2 {
+    color: #824936;
+    text-align: center;
+}
+
+.intro__section p {
+    color: #222C2A;
+}
+
+/* ___intro design */
+
+/** mid design */
+
+.mid {
+    background: #222C2A;
+}
+
+.mid__pad {
+    padding: 2.5em 0em;
+}
+
+.mid__section {
+    color: #fff;
+}
+
+/* ___mid design */
+
+/** base design */
+
+.base {
+    background: #824936;
+}
+
+.base__pad {
+    padding: 2.5em 0em;
+}
+
+.base__section {
+    color: #fff;
+}
+
+/* ___base design */
